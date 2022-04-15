@@ -45,3 +45,25 @@
 	background-color: rgb(192, 190, 190);
 	pointer-events: none;
 }
+
+.playground>.playground__box.circle::before {
+	content: '';
+	background-image: url("./../../assets/circle.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 120px 120px;
+	height: 100px;
+	width: 100px;
+	display: block;
+}
+
+.playground>.playground__box.cross::before {
+	content: '';
+	background-image: url("./../../assets/cross.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 120px 120px;
+	height: 100px;
+	width: 100px;
+	display: block;
+}
